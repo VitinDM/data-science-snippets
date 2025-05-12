@@ -1,5 +1,8 @@
 from setuptools import setup, find_packages
 
+
+
+
 setup(
     name='data-science-snippets',
     version='0.1.0',
@@ -8,6 +11,8 @@ setup(
     description='A modular set of data science utilities for EDA, cleaning, and more.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
+    use_scm_version=True, #auto_version
+    setup_requires=["setuptools_scm"], #auto_version
     url='https://github.com/vAndrewKarma/data-science-snippets',
     packages=find_packages(),
 install_requires=[
