@@ -10,10 +10,12 @@ setup(
     long_description_content_type='text/markdown',
     url='https://github.com/vAndrewKarma/data-science-snippets',
     packages=find_packages(),
-    install_requires=[
-        'numpy>=1.24.4',
-        'pandas>=1.5.3'
-    ],
+install_requires=[
+    'numpy>=1.24.4',
+    'pandas>=1.5.3',
+    'matplotlib>=3.6.3',
+    'seaborn>=0.12.2'
+],
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',

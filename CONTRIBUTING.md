@@ -28,7 +28,7 @@ We welcome contributions of all kinds:
 
 - Keep functions modular and reusable.
 - Use clear variable names and comments if needed.
-- Use `numpy` and `pandas` as base dependencies (avoid heavier libs unless justified).
+- Use `numpy`, `pandas`, `matplotlib`, `seaborn` as base dependencies (avoid heavier libs unless justified).
 
 ## 🙌 No CLA required
 

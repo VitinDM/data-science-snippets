@@ -232,6 +232,13 @@ build_pipeline(...)
 - Python ≥ 3.9  
 - pandas ≥ 1.5.3  
 - numpy ≥ 1.24.4  
+- seaborn ≥ 0.12.2
+- matplotlib ≥ 3.6.3
+
+---
+## 🔐 Security
+
+Please see our [SECURITY.md](.github/SECURITY.md) for vulnerability disclosure guidelines.
 
 ---
 
