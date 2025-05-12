@@ -5,7 +5,6 @@ from setuptools import setup, find_packages
 
 setup(
     name='data-science-snippets',
-    version='0.1.0',
     author='Vataselu Andrei, Nicola-Diana Sincaru',
     author_email='andreivataselu42@gmail.com',
     description='A modular set of data science utilities for EDA, cleaning, and more.',
