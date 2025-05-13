@@ -1,6 +1,6 @@
 # 🧠 data-science-snippets
 
-**data-science-snippets** is a modular, production-ready Python library containing curated, reusable utilities used in the day-to-day workflows of senior data scientists and machine learning engineers.
+**data-science-snippets** is a modular, production-ready Python snippets  containing curated, reusable utilities used in the day-to-day workflows of senior data scientists and machine learning engineers.
 
 It includes tools for EDA, cleaning, validation, text processing, feature engineering, visualization, model evaluation, time series, and more — organized by task to keep your work clean and efficient.
 
@@ -11,7 +11,7 @@ It includes tools for EDA, cleaning, validation, text processing, feature engine
 ✅ Covers every major step in the data science lifecycle  
 ✅ Clean, modular structure by task  
 ✅ Built for reusability in real-world projects  
-✅ Lightweight: only depends on `pandas` and `numpy` by default  
+✅ Lightweight: only depends on `pandas`, `numpy`, `matplotlib`, `seaborn` by default  
 ✅ Compatible with Python 3.9+
 
 ---
@@ -66,10 +66,6 @@ data-science-snippets/
 │   ├── model_training.py
 │   ├── pipeline_builder.py
 │   └── hyperparameter_tuner.py
-├── serialization/
-│   ├── save_model.py
-│   ├── load_model.py
-│   └── versioned_saver.py
 ├── data_validation/
 │   ├── schema_check.py
 │   ├── unique_constraints.py
@@ -173,14 +169,6 @@ data-science-snippets/
 
 ---
 
-## 🔹 `serialization/`
-
-- `save_model.py`: Saves models and preprocessing pipelines using `joblib` or `pickle`.
-- `load_model.py`: Loads models with optional safety checks.
-- `versioned_saver.py`: Automatically versions and saves models or artifacts in organized directories.
-
----
-
 ## 🔹 `data_validation/`
 
 - `schema_check.py`: Validates schema based on expected dtypes and column names.
@@ -197,32 +185,10 @@ data-science-snippets/
 
 ---
 
-## 📦 Installation
-
-```bash
-pip install data-science-snippets
-```
-
-Or install from source:
-
-```bash
-git clone https://github.com/vAndrewKarma/data-science-snippets.git
-cd data-science-snippets
-pip install -e .
-```
-
----
-
 ## 🛠️ Usage
 
 ```python
-from data_science_snippets.eda.most_frequent_values import most_frequent_values
-from data_science_snippets.preprocessing.minmax_scaling import scale_dataframe
-from data_science_snippets.modeling.pipeline_builder import build_pipeline
-
-most_frequent_values(df)
-scale_dataframe(df, columns=["age", "income"])
-build_pipeline(...)
+Copy-Paste 📦
 ```
 
 ---
