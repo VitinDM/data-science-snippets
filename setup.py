@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 
 setup(
-    name='utils_AxN', 
+    name='utils_AxN_2237', 
     author='Vataselu Andrei, Nicola-Diana Sincaru',
     author_email='andreivataselu42@gmail.com',
     description='A modular set of data science utilities for EDA, cleaning, and more.',
