@@ -1,3 +1,5 @@
+import matplotlib.pyplot as plt
+
 def plot_correlation_matrix(df, figsize=(10, 8), cmap='coolwarm', annot=True):
     """
     Plots a correlation matrix heatmap for a given pandas DataFrame.
