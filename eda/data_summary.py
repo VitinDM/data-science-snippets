@@ -1,3 +1,4 @@
+import pandas as pd
 def unique_values(data):
     """Shows how many values are actually unique for all columns"""
     total = data.count()

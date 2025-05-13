@@ -1,3 +1,4 @@
+import pandas as pd
 def missing_data(data):
     """
     Get's total columns, shows u how much data is missing, their datatypes and the percentage

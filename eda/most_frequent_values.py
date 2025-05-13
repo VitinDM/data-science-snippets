@@ -1,3 +1,4 @@
+import pandas as pd
 def most_frequent_values(data):
     """
     For each column in the df shows u the percent of the most unique value it s frequence and who is that value.
